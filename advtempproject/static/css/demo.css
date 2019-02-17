@@ -1,0 +1,33 @@
+th{
+  border:4px solid orange;
+  background: blue;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+}
+td{
+  border:4px solid cyan;
+  background: blue;
+  color:red;
+  font-size: 20px;
+  text-align: center;
+
+
+}
+
+#sp{
+margin-top:30px;
+}
+#ve{
+  margin-top: 30px;
+}
+img{
+  height: 20%;
+  width:30%;
+  border:5px groove orange;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+table{
+  margin-top: 20px;
+}

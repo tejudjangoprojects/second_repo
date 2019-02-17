@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+    <title></title>
+  </head>
+  <body>
+<div class="container" align='center'>
+  <h1>WELcome to durga news poratal</h1><hr>
+  {% block body_block %}
+  {%endblock%}
+
+</div>
+<br><br><img src="{% static 'images/mitali.jpg' %}" alt="image not available">
+  <img src="{% static 'images/mithali.jpg' %}" alt="">
+    <img src="{% static 'images/saina.jpg' %}" alt="">
+
+
+
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends 'testapp/base.html' %}
+{% block body_block %}
+<h1>welocme to teju movie news</h1>
+<form method="post">
+  {{form.as_p}}
+  {%csrf_token%}
+  <input type="submit" id='sp' class='btn btn-large btn-warning' value="submit data">
+
+</form>
+<a id='ve' class='btn btn-lg btn-success' href="/data">click here to get the added Employee data</a>
+
+{% endblock %}
